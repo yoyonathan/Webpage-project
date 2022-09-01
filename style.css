@@ -41,7 +41,7 @@
     font-size: 18px;
     width: 350px;
 }
-button {
+button, .sign-up-button {
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 7px 25px;
@@ -118,4 +118,39 @@ button {
     justify-content: center;
     padding-left: 450px;
 }
+.lower{
+    background-color: #3882F6;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title2 {
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 25px;
+    font-style: light italic;
+}
+.under-text2 {
+    color: #E5E7EB;
+    font-style: light italic;
+}
 
+.sign-up-button {
+    border: 1px solid #E5E7EB
+}
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: #E5E7EB;
+}
